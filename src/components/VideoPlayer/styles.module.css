@@ -18,4 +18,7 @@
   position: absolute;
   inset: 0;
   margin: auto;
+  opacity: 0.8;
+  filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(74deg) brightness(103%)
+    contrast(104%);
 }
