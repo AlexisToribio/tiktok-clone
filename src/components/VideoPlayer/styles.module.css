@@ -4,6 +4,7 @@
 }
 
 .wrapper {
+  position: relative;
 }
 
 .player {
@@ -21,4 +22,22 @@
   opacity: 0.8;
   filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(74deg) brightness(103%)
     contrast(104%);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.actions {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.action {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
